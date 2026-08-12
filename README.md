@@ -17,3 +17,14 @@ python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 
+## 📁 Unified Alert & Cloud Storage System (`detections/`)
+
+All threat alerts captured during monitoring are processed in real-time, saved into a central `detections/` directory, synced to **Azure Blob Storage**, and sent directly via **Telegram Bot Alerts**.
+
+### Captured Evidence Samples
+
+| Alert Type | Evidence Snapshot (`detections/`) | Cloud & Telegram Sync |
+| :--- | :---: | :---: |
+| **Weapon Detected** | <img src="detections/WEAPON_KNIFE.jpg" width="250"/> | ✅ Azure & Telegram |
+| **Suspicious Activity** | <img src="detections/HALF_FACE.jpg" width="250"/> | ✅ Azure & Telegram |
+
