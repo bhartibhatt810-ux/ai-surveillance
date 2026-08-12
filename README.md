@@ -189,18 +189,6 @@ ai-surveillance/
 
 ---
 
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome. Feel free to check the [issues page](https://github.com/bhartibhatt810-ux/ai-surveillance/issues) or open a pull request.
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details. *(Add a `LICENSE` file to the repo if not already present.)*
-
----
-
 ## 🙋 Author
 
 **Bharti Bhatt** — [GitHub](https://github.com/bhartibhatt810-ux)
