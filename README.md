@@ -17,12 +17,6 @@ A real-time AI surveillance web application that combines **YOLOv8 object & pose
 
 ## 📸 Demo
 
-### Live Detections
-
-| Knife Detection (webcam) | Knife Detection (screen threat) |
-|---|---|
-| ![Knife Detection 1](knife_20260721_094114.jpg) | ![Knife Detection 2](knife_20260721_094511.jpg) |
-
 ### Telegram Alert Feed
 
 | Pocket Concealment Alerts | Weapon Alerts (Scissors / Knife) |
