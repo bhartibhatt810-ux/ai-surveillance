@@ -11,6 +11,8 @@ A real-time AI surveillance web application that combines **YOLOv8 object & pose
 
 > ⚠️ This is a prototype/learning project. See [Limitations](#-limitations--disclaimer) before using it in any real security context.
 
+**🟢 Deployment Status:** Live and running on an **Azure Virtual Machine** (private/internal deployment — not publicly exposed). See [Current Deployment](#️-current-deployment) for details.
+
 ---
 
 ## 📸 Demo
@@ -139,15 +141,25 @@ Visit `http://localhost:8000` in your browser and allow camera access.
 
 ---
 
-## ☁️ Deployment (Azure VM)
+## ☁️ Current Deployment
+
+This project is **actively deployed on an Azure Virtual Machine** (Linux/Ubuntu):
+
+- **Compute:** Azure VM running the FastAPI/Uvicorn server
+- **Storage:** Azure Blob Storage (`surveillance-alerts` container) for verified threat evidence — see screenshots above
+- **Alerting:** Telegram Bot integrated with the live instance for real-time push notifications
+- **Access:** Currently private/internal — not exposed on a public URL
+
+### Deploying your own instance
 
 1. Provision an Ubuntu Linux VM on Azure.
-2. Install Python, clone the repo, set up the `.env` file as above.
+2. Install Python, clone the repo, set up the `.env` file as described above.
 3. Run with a production ASGI setup, e.g.:
    ```bash
    uvicorn app:app --host 0.0.0.0 --port 8000 --workers 2
    ```
 4. Put it behind Nginx + a systemd service for persistence, and use **HTTPS/WSS** (not plain `ws://`) for camera frame transport in production.
+5. Restrict network access (NSG rules / firewall) since the dashboard currently has no built-in authentication.
 
 ---
 
