@@ -161,13 +161,14 @@ This project is **actively deployed on an Azure Virtual Machine** (Linux/Ubuntu)
 
 ```
 ai-surveillance/
-├── app.py                 # FastAPI app, WebSocket handler, detection & alert logic
-├── detections/             # Locally stored incident snapshots
-├── requirements.txt        # Python dependencies
-├── azure1.png / azure2.png             # Demo screenshots — Azure storage
-├── telegramphoto1.png / telegramphoto2.png  # Demo screenshots — Telegram alerts
-├── Testing_video.mp4       # Demo recording
-└── README.md
+├── app.py
+├── detections/
+├── requirements.txt
+├── .env.example
+├── README.md
+└── assets/
+    ├── azure1.png
+    └── telegramphoto1.png
 ```
 
 ---
