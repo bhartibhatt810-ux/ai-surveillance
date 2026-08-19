@@ -1,12 +1,5 @@
 # 🛡️ Sentinel — Enterprise AI Surveillance Cloud Application
 
-![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-WebSockets-009688?logo=fastapi&logoColor=white)
-![YOLOv8](https://img.shields.io/badge/Ultralytics-YOLOv8-purple)
-![Azure](https://img.shields.io/badge/Azure-Blob%20Storage-0078D4?logo=microsoftazure&logoColor=white)
-![Telegram](https://img.shields.io/badge/Alerts-Telegram%20Bot-26A5E4?logo=telegram&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-green)
-
 A real-time AI surveillance web application that combines **YOLOv8 object & pose detection**, **live WebSocket video streaming**, **Azure Blob Storage backup**, and **instant Telegram alerts** — built to detect weapons, suspicious posture, and violent motion as they happen.
 
 > ⚠️ This is a prototype/learning project. See [Limitations](#-limitations--disclaimer) before using it in any real security context.
